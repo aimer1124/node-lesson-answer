@@ -20,18 +20,16 @@ superagent.get(cnodeUrl)
 
         var ep = new eventproxy();
 
-        ep.after('topic_html','user_html', topicUrls.length, function (topics,users) {
+        ep.after('topic_html', topicUrls.length, function (topics) {
             topics = topics.map(function (topicPair) {
                 var topicUrl = topicPair[0];
                 var topicHtml = topicPair[1];
                 var $ = cheerio.load(topicHtml);
-                var userHtml = cheerio.load(users[1]);
                 return ({
                     title: $('.topic_full_title').text().trim(),
                     href: topicUrl,
                     comment1: $('.reply_content').eq(0).text().trim(),
-                    author1: $('.user_info .dark').eq(0).text().trim(),
-                    score1: userHtml('.big').eq(1).text()
+                    author1: $('.user_info .dark').eq(0).text().trim()
                 });
             });
 
@@ -46,18 +44,8 @@ superagent.get(cnodeUrl)
                 .end(function (err, res) {
                     console.log('fetch ' + topicUrl + ' successful');
                     var $ = cheerio.load(res.text);
-                    var href = url.resolve(cnodeUrl,$('.user_info .dark').eq(0).attr('href'));
-                    userUrls.push(href);
                     ep.emit('topic_html', [topicUrl, res.text]);
                 });
         });
 
-        userUrls.forEach((function (userUrl) {
-            superagent.get(userUrl)
-                .end(function (err, res) {
-                    console.log('fetch user:' + userUrl + 'successful');
-                    var $ = cheerio.load(res.text);
-                    ep.emit('user_html',[userUrl,res.text]);
-                });
-        }));
     });
