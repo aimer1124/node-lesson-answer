@@ -37,8 +37,6 @@ superagent.get(cnodeUrl)
             console.log(topics);
         });
 
-        var userUrls = [];
-
         topicUrls.forEach(function (topicUrl) {
             superagent.get(topicUrl)
                 .end(function (err, res) {
