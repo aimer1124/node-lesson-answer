@@ -22,3 +22,6 @@ The answer for https://github.com/alsotang/node-lessons
 - 框架[eventproxy](https://github.com/JacksonTian/eventproxy)介绍
 - 使用[eventproxy](https://github.com/JacksonTian/eventproxy)控制爬虫的**并发**
 - 由于`Cnodejs`官网对访问并发做了限制,在执行时,会出来获取数据为**空**
+
+## [lesson12](https://github.com/alsotang/node-lessons/tree/master/lesson12)
+- 
