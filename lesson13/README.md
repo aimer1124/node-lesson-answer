@@ -1,2 +1,3 @@
 - [Travis](https://travis-ci.org/)在线CI环境
 - 需要在原代码库的根目录,添加`.travis.yml`文件
+- 具体的需求代码可参考:[https://github.com/aimer1124/SuperTestWithGrunt](https://github.com/aimer1124/SuperTestWithGrunt)
