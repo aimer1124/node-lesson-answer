@@ -1,0 +1,2 @@
+- [Travis](https://travis-ci.org/)在线CI环境
+- 需要在原代码库的根目录,添加`.travis.yml`文件

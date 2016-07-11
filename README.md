@@ -23,5 +23,9 @@ The answer for https://github.com/alsotang/node-lessons
 - 使用[eventproxy](https://github.com/JacksonTian/eventproxy)控制爬虫的**并发**
 - 由于`Cnodejs`官网对访问并发做了限制,在执行时,会出来获取数据为**空**
 
-## [lesson12](https://github.com/alsotang/node-lessons/tree/master/lesson12)
-- 
+## [lesson12](https://github.com/alsotang/node-lessons/tree/master/lesson12)-未完成
+- 使用`heroku`平台进行代码部署
+- 部署到`heroku`仍未成功
+
+## [lesson13](https://github.com/alsotang/node-lessons/tree/master/lesson13)
+- [Travis](https://travis-ci.org/)在线CI环境
