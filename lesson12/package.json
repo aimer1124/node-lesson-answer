@@ -5,7 +5,7 @@
   "engines": {
     "node": "5.9.1"
   },
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/aimer1124/node-lesson-answer.git"
   },
-  "author": ""
+  "author": "",
   "bugs": {
     "url": "https://github.com/aimer1124/node-lesson-answer/issues"
   },
@@ -23,5 +23,5 @@
     "express": "^4.14.0",
     "superagent": "^2.0.0"
   },
-  "license": "ISC",
+  "license": "ISC"
 }
