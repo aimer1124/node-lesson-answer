@@ -13,8 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/aimer1124/node-lesson-answer.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": ""
   "bugs": {
     "url": "https://github.com/aimer1124/node-lesson-answer/issues"
   },
@@ -23,5 +22,6 @@
     "cheerio": "^0.20.0",
     "express": "^4.14.0",
     "superagent": "^2.0.0"
-  }
+  },
+  "license": "ISC",
 }
