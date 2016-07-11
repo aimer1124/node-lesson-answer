@@ -2,12 +2,12 @@
   "name": "node-lesson-answer",
   "version": "1.0.0",
   "description": "The answer for https://github.com/alsotang/node-lessons",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "index.js",
   "scripts": {
     "start": "node app.js"
-  },
-  "engines": {
-    "node": "5.9.1"
   },
   "repository": {
     "type": "git",
