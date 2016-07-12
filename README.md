@@ -23,6 +23,30 @@ The answer for https://github.com/alsotang/node-lessons
 - 使用[eventproxy](https://github.com/JacksonTian/eventproxy)控制爬虫的**并发**
 - 由于`Cnodejs`官网对访问并发做了限制,在执行时,会出来获取数据为**空**
 
+## [lesson5](https://github.com/alsotang/node-lessons/tree/master/lesson5)
+- 控件爬虫的并发量,使用`async`
+
+## [lesson6](https://github.com/alsotang/node-lessons/tree/master/lesson6)
+- 编写单元测试,查看测试覆盖率
+- mocha/should/istanbul
+
+## [lesson7](https://github.com/alsotang/node-lessons/tree/master/lesson7)
+- E2E测试`phantomjs`
+- 本机`phantomjs`未完成成功,教程**未实践完成**
+
+## [lesson8](https://github.com/alsotang/node-lessons/tree/master/lesson8)
+- 使用`supertest`编写完善的测试用例
+- `SuperTest`完成持久化`cookie`目的
+
+## [lesson9](https://github.com/alsotang/node-lessons/tree/master/lesson9)
+- 正则表达式
+
+## [lesson10](https://github.com/alsotang/node-lessons/tree/master/lesson10)
+- benchmark的学习及编写 
+
+## [lesson11](https://github.com/alsotang/node-lessons/tree/master/lesson11)
+- var/this/作用域/闭包
+
 ## [lesson12](https://github.com/alsotang/node-lessons/tree/master/lesson12)-未完成
 - 使用`heroku`平台进行代码部署
 - 部署到`heroku`仍未成功
@@ -42,4 +66,8 @@ The answer for https://github.com/alsotang/node-lessons
 - Session的原理及实践
 - 使用过程中的方法推荐
 
-## []()
+## [lesson17](https://github.com/alsotang/node-lessons/tree/master/lesson17)
+- Promise原理及实践
+
+## [lesson18](https://github.com/alsotang/node-lessons/tree/master/lesson18)
+- http/Connect/Express从基础的http server到集成中间件的Express,介绍了原理、使用

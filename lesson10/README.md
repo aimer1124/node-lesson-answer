@@ -1,0 +1,2 @@
+- 学习、编写 benchmark
+- 学习站点[https://jsperf.com/](http://jsperf.com/),网站暂时打不开
