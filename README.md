@@ -30,4 +30,16 @@ The answer for https://github.com/alsotang/node-lessons
 ## [lesson13](https://github.com/alsotang/node-lessons/tree/master/lesson13)
 - [Travis](https://travis-ci.org/)在线CI环境
 
+## [lesson14](https://github.com/alsotang/node-lessons/tree/master/lesson14)
+- 推荐书: [JavaScript 语言精粹](https://book.douban.com/subject/3590768/)
+- 对象、数据类型、类型转换
 
+## [lesson15](https://github.com/alsotang/node-lessons/tree/master/lesson15)
+- Mongodb及Mongoose的使用
+
+## [lesson16](https://github.com/alsotang/node-lessons/tree/master/lesson16)
+- Cookie的原理及实践
+- Session的原理及实践
+- 使用过程中的方法推荐
+
+## []()
